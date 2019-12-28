@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andrei.traficeficient.Numerar">
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginBottom="208dp"
+        android:text="R: semnifică timpul așteptării la semafor (în secunde)"
+        android:textColor="?attr/colorError"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_alignTop="@+id/textView17"
+        android:gravity="center"
+        android:textColor="?attr/colorError" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_alignTop="@+id/textView16"
+        android:gravity="center"
+        android:textColor="?attr/colorError" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_alignTop="@+id/textView11"
+        android:gravity="center"
+        android:textColor="?attr/colorError" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView14"
+        android:layout_alignTop="@+id/textView13"
+        android:gravity="center"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView14"
+        android:layout_alignTop="@+id/textView12"
+        android:gravity="center"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_toEndOf="@+id/button3"
+        android:gravity="center"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="66dp"
+        android:text="Drum 1"
+        android:textColor="?android:attr/colorForeground"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginTop="135dp"
+        android:text="Drum 2"
+        android:textColor="?android:attr/colorForeground"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginTop="199dp"
+        android:text="Drum 3"
+        android:textColor="?android:attr/colorForeground"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginBottom="300dp"
+        android:text="Drum 4"
+        android:textColor="?android:attr/colorForeground"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="123dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_marginEnd="163dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:singleLine="false" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="123dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_alignTop="@+id/textView11"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="123dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_alignTop="@+id/textView12"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="123dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_alignTop="@+id/textView13"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="85dp"
+        android:onClick="calculeaza"
+        android:text="Calculează"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_alignTop="@+id/textView11"
+        android:gravity="center"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView15"
+        android:layout_marginEnd="15dp"
+        android:gravity="center"
+        android:textColor="?attr/colorError" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Număr maşini"
+        android:textColor="?android:attr/colorForeground"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_alignTop="@+id/textView34"
+        android:gravity="center"
+        android:text="V"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView21"
+        android:layout_alignTop="@+id/textView34"
+        android:gravity="center"
+        android:text="R"
+        android:textColor="?attr/colorError"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginBottom="250dp"
+        android:text="V: semnifică timpul necesar trecerii tuturor vehiculelor (în secunde)"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andrei.traficeficient.Aleatoriu">
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView42"
+        android:layout_marginBottom="230dp"
+        android:text="R: semnifică timpul așteptării la semafor (în secunde)"
+        android:textColor="?attr/colorError"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginBottom="260dp"
+        android:text="V: semnifică timpul necesar trecerii tuturor vehiculelor (în secunde)"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView26"
+        android:layout_alignTop="@+id/textView9"
+        android:gravity="center"
+        android:textColor="?attr/colorError" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView26"
+        android:layout_alignTop="@+id/textView4"
+        android:gravity="center"
+        android:textColor="?attr/colorError" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView26"
+        android:layout_alignTop="@+id/textView"
+        android:gravity="center"
+        android:textColor="?attr/colorError" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView22"
+        android:layout_alignTop="@+id/textView9"
+        android:gravity="center"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView22"
+        android:layout_alignTop="@+id/textView"
+        android:gravity="center"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView22"
+        android:layout_alignTop="@+id/textView4"
+        android:gravity="center"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="66dp"
+        android:text="Drum 1"
+        android:textColor="?android:attr/colorForeground"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="121dp"
+        android:text="Drum 2"
+        android:textColor="?android:attr/colorForeground"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="184dp"
+        android:text="Drum 3"
+        android:textColor="?android:attr/colorForeground"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="123dp"
+        android:layout_height="40dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_marginStart="106dp"
+        android:gravity="center"
+        android:textColor="?android:attr/colorForeground"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="123dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_alignTop="@+id/textView27"
+        android:gravity="center"
+        android:textColor="?android:attr/colorForeground"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="123dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_alignTop="@+id/textView28"
+        android:gravity="center"
+        android:textColor="?android:attr/colorForeground"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="19dp"
+        android:text="Drum 4"
+        android:textColor="?android:attr/colorForeground"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="123dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_alignTop="@+id/textView29"
+        android:gravity="center"
+        android:textColor="?android:attr/colorForeground"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_marginEnd="84dp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_marginEnd="11dp"
+        android:gravity="center"
+        android:textColor="?attr/colorError" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="Număr maşini"
+        android:textColor="?android:attr/colorForeground" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView25"
+        android:layout_alignTop="@+id/textView39"
+        android:gravity="center"
+        android:text="V"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView29"
+        android:layout_alignTop="@+id/textView39"
+        android:gravity="center"
+        android:text="R"
+        android:textColor="?attr/colorError"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="131dp"
+        android:onClick="again"
+        android:text="Din nou"
+        android:textAllCaps="false" />
+</RelativeLayout>

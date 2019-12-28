@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Descriere"
+    android:name="Introduction"
+    android:label="Introduction">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="29dp"
+        android:gravity="center_horizontal"
+        android:text="         Această aplicație are ca scop eficientizarea și fluidizarea circulației rutiere prin calcularea numărului de secunde necesar trecerii unui număr cât mai mare de mașini printr-o intersecție semaforizată. Algoritmul de calcul poate fi aplicat pentru intersecția a 3 sau 4 drumuri, fiind posibilă atât introducerea manuală a numărului de autovehicule ce staționează la semafor, cât și generarea unui număr la întâmplare , fapt ce subliniază complexitatea și utilitatea sa."
+        android:textColor="?android:attr/colorForeground"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView32"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="        Contactați-ne prin email pentru a ne transimte sugestiile și opiniile dumneavoastră sau pentru a raporta eventualele probleme întâlnite: trafic_eficient@yahoo.com"
+        android:textColor="?android:attr/colorForeground"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="111dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:src="@mipmap/car" />
+</RelativeLayout>
